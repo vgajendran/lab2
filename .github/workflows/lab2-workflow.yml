@@ -5,8 +5,8 @@ on:
     inputs: 
       run_job:
         description: Run Specific Job
-        required: false
         type: boolean
+        required: false
        
       custom_message:
         description: Enter a custom message
@@ -27,4 +27,5 @@ jobs:
          run: echo ${{inputs.custom_message}}
       
     
+
 
